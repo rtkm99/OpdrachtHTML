@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+div#wrapper {
+    margin: auto;
+    width: 1200px;
+    border-radius: 20px;
+}
+
+body {
+    background: linear-gradient(to bottom, black, grey, white, deeppink);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+    line-height: 23px;
+}
+
+nav {
+    list-style-type: none;
+    background-color: rgb(90, 90, 90);
+    overflow: hidden;
+    float: left;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 56px;
+    padding-right: 55px;
+    margin-left: 19px;
+    margin-right: 19px;
+
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav.home nav.recepten nav.contact {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+    background-color: deeppink;
+    border-radius: 5px;
+
+}
+
+.active {
+    background-color: deeppink;
+    border-radius: 5px;
+    color: black;
+}
+
+nav a:hover, .dropdown:hover .dropbtn {
+    background-color: deeppink;
+    color: black;
+    border-radius: 5px;
+}
+
+nav.dropdown {
+    display: inline-block;
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+img.header {
+    border-radius: 10px;
+}
+
+img.ronnieflexonstage {
+    border: solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 17px;
+    margin-left: 17px;
+}
+
+article.EarlyLife {
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 70%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+img.ImgRight {
+    float: right;
+    margin-right: 17px;
+    margin-left: 17px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 614px;
+
+}
+
+footer {
+    background-color: rgb(90, 90, 90);
+    width: 1200px;
+    height: 123px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer a {
+    color: lightgrey;
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+p#clear {
+    clear: both;
+}
